@@ -1,8 +1,7 @@
 def to_jaden_case(string):
     s = string.split()
-    l = len(s)
 
-    for n in range(l):
+    for n in range(len(s)):
         s[n] = s[n].capitalize()
     
     string =(" ".join(s))
